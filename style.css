@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: #f9f9f9; /* very light gray */
+  color: #555; /* medium gray for soft text */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #ffffff; /* keep white but you can make it off-white if you want */
+  color: #333; /* dark gray but not black */
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 1px solid #ccc; /* light gray border */
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc; /* light gray */
+}
+
+nav a {
+  color: #333; /* dark gray */
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  color: #444; /* slightly darker gray */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc; /* light gray */
+  padding-bottom: 5px;
+}
+
+.skills ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ccc; /* light gray */
+  color: #555; /* medium gray */
+}
